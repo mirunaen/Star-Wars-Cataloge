@@ -1,18 +1,21 @@
-## PROJECT_NAME
+## STAR_WARS_CATALOGUE
 
-*TODO: [ADD_TASK_REQUIREMENTS_HERE]*
 
-[Sophie Lewis](mailto:sophie@codewithdragos.com)
+
+[Miruna Nedelcu](mailto:miruna@codewithdragos.com)
 
 ## Assumptions
 
-*TODO: [ASSUMPTIONS_MADE_HERE]*
+I will need a HOMEPAGE, CREATEPOST PAGE and a POSTPAGE.
+Also a rest api and style components and cypress to test it.
 
 ## Proposed Solution
 
 *TODO: [ADD_SOLUTION_DESCRIPTION]*
-- break down the steps you followed
-- use bullet points to explain it in a very structured way
+- Components folders with the pages
+- Install style components and use it.
+- Then get the api url.
+- Install cypress and test my app.
 
 ## Screenshots
 ![alt text](screens/demo.png)
@@ -20,8 +23,8 @@
 ## Libraries / Tools Used
 
 - React.js
-- Create React App for project setup
-- ...
+- Style components
+- Cypress 
 
 ## Setup
 
