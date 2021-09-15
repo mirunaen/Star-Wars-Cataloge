@@ -1,38 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Serif+Pro&display=swap');
+
 .App {
   text-align: center;
+  font-family: 'Source Serif Pro', serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.starWars{
+  font-size: xx-large;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  margin: 5px;
+  padding: 5px;
+
+}
+.Wrapper{
+  width: 30%;
+  border: grey solid 1px;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+
+.Wrapper:hover{
+  background-color: #d1e095;
+}
+.Title{
+  padding: 10px;
+  font-size: 30px;
+  margin: 5px;
+  text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Info{
+  text-align:left;
+}
+
+.btn-cards{
+  color: palevioletred;
+  font-size: 2em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+
+}
+
+.btn-cards:hover{
+  background-color: #44725f;
+}
+
+.title-link {
+  text-decoration: none;
+  color: #2e2d2b;
 }
